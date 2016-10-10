@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-28 13:41:00
+ * @version $Id$
+ */
+#p1{
+	font-family: arial;
+}
+#p2{
+	font-family: Times new Roman;
+	color: red;
+}
+#xin{
+	font-size: 12px;
+}
+#star{
+	font-size: 15px;
+}
+#h1{
+	font-size: 12px;
+	line-height: 12px;
+}
+#h2{
+	font-size: 12px;
+	line-height: 2;
+}
+#h3{
+	font-size: 12px;
+	line-height: 24px;
+	text-decoration: overline;
+}
+#h4{
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+#h5{
+	font-weight: normal;/*字体加粗*/
+	font-style: normal;
+	text-decoration: line-through;
+}
+a{
+	text-decoration: none;
+	/*超链接下划线清除*/
+}
+#text1{
+	text-align: center;
+	/*文本对齐，文本居中*/
+}
+#text2{
+	text-align: left;
+}
+/*首行缩进*/
+#textare{
+	text-indent: 2em;
+}
+/*w闻之颜色与背景*/
+body{
+	background: gray;
+}
+body span{
+   font-size: 18px;
+   line-height: 18px;
+   color: pink;
+}
+/*盒模型*/
+.box{
+	text-align: center;
+	border-color: red;
+	border-width: 1px;
+	border-style: dashed;
+
+}
+.box2{
+	height: 100px;
+	text-align: center;
+	color: red;
+	background: white;
+	border-width: 5px;
+	border-color: blue;
+	border-style: solid dashed;
+}
+/*简写形式*/
+.box3{
+	border: 2em red dashed;
+}
+/*设置一条边框*/
+.box4{
+	border-left: 3px black solid;
+}
+#padd{
+    /*如果单独设置了div的高度则内容自己不会实现自动居中*/
+
+	border-width: 2px;
+	border-style: dashed;
+	border-color: white;
+	padding: 12px;
+    text-align: center;
+
+}
+#margin{
+	/*外边距理解*/
+	text-align: center;
+	border-width: 2px;
+	border-color: black;
+	border-style: dashed;/*小短线*/
+    padding: 12px;
+    margin: 50px;
+}
+#mar{
+	text-align: center;
+	border-width: 5px;
+	border-color: black;
+	border-style: double;
+    padding: 12px;
+    margin: 50px;
+}
+#dot{
+	text-align: center;
+	border-width: 2px;
+	border-color: black;
+	border-style: dotted;/*点状线*/
+    padding: 12px;
+    margin: 50px;
+}
+/*特殊的盒子body 和浏览器窗口一样大小*/

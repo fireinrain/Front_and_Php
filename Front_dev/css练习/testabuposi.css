@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 20:18:54
+ * @version $Id$
+ */
+.one{
+	width: 500px;
+	height: 500px;
+	background: pink;
+	border: 2px red dashed;
+	position: relative;
+
+}
+.one>.two{
+	width: 200px;
+	height: 200px;
+	background: orange;
+	border: 2px black solid;
+	position: absolute;
+	right: 30px;
+}
+.one>.three{
+	width: 200px;
+	height: 200px;
+	background: orange;
+	border: 2px black solid;
+	position: absolute;
+	left: 30px;
+}

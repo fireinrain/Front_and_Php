@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 20:30:20
+ * @version $Id$
+ */
+ .xin{
+    list-style-type: none;
+    background: url(bgr.png) repeat-x;
+    height: 31px;
+ }
+.xin li{
+	float: left;
+	font-size: 14px;
+	line-height: 31px;
+	background: url(bg.png) repeat-x;
+	padding-left:15px;
+	margin-right: 5px;
+}
+.xin li a{
+	float: left;
+	text-decoration: none;
+	color: #333;
+	padding-right: 15px;
+	background: url(bg.png) no-repeat right 0;
+}
+.xin li .selected{
+	
+	background: url(bgr.png) no-repeat 0 -37px;
+}
+.xin li .selcted a{
+
+	font-weight: bold;
+	background: url(bg.png) no-repeat right -37px;
+}

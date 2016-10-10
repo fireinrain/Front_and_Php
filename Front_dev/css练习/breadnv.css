@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 17:24:53
+ * @version $Id$
+ */
+/*#demo{
+	width: 0px;
+	height: 0px;
+	border-color: transparent transparent transparent #933;
+	//border-color: #0ff #00f #f00 #933;
+	border-style: solid;
+	border-width: 50px;
+}*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.nav{
+	background: #933;
+	width: 600px;
+	height: 30px;
+	line-height: 30px;
+}
+.nav ul{
+	list-style-type: none;
+
+}
+.nav ul li{
+	position: relative;
+	float: left;
+	width: 200px;
+	text-align: center;
+}
+.nav ul li a{
+	color: white;
+	text-decoration:none;
+}
+.nav ul li em{
+	width: 0px;
+	height: 0px;
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+	border-width: 24px;
+	position: absolute;
+	right:-24px;
+	top: -8px; 
+}
+.nav ul li i{
+	width: 0px;
+	height: 0px;
+	border-color: transparent transparent transparent #933;
+	border-style: solid;
+	border-width: 16px;
+	position: absolute;
+	right:-8px;
+	top: 0px; 
+}

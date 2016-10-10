@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 15:16:01
+ * @version $Id$
+ */
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+#top{
+	height: 120px;
+	position: relative;
+	background: gray;
+	border: 2px pink dashed;
+	margin: 10px;
+
+}
+#top .one,.two,.three{
+    height: 100px;
+    width: 30%;
+    background: pink;
+    border: 1px red solid;
+    float: left;
+}
+#mid{
+	height: 120px;
+	position: relative;
+	background: silver;
+	border: 2px pink dashed;
+	margin: 10px;
+
+}
+#but{
+	height: 120px;
+	position: relative;
+	background:green;
+	border: 2px pink dashed;
+	margin: 10px;
+
+}

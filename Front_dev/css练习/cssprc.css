@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 16:08:13
+ * @version $Id$
+ */
+ /*简单导航条开始*/
+.nav ul{
+	list-style-type: none;
+}
+.nav ul li{
+	width: 100px;
+	background: #933;
+	float: left;
+	margin-left: 10px;
+}
+.nav a{
+	text-decoration: none;
+	line-height: 40px;
+	color:#fff;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	
+}
+/*简单导航结束*/

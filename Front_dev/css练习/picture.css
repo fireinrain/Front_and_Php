@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 14:24:19
+ * @version $Id$
+ */
+ body{
+ 	background: url(mayuyubg.png) repeat;
+ 	/*background-repeat: repeat-x;*/
+ }
+ body{
+ 	background: pink;
+ }
+img{
+	height: 400px;
+	width: 300px;
+	border: 2px pink dashed;
+	margin: 10px 10px 10px -8px;
+	padding: 5px;
+}
+p{
+	text-align: center;
+
+}

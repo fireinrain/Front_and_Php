@@ -1,0 +1,54 @@
+/*单列布局开始*/
+/*body{
+	background: silver;
+	margin: 0px;
+	padding: 0px;
+	height: 500px;
+}
+.header{
+	background: purple;
+	height: 100px;
+}
+.con1{
+	background: orange;
+	height: 150px;
+}
+.con2{
+	background: red;
+	height: 150px;
+
+}
+.footer{
+	background: maroon;
+	height: 100px;
+}*/
+/*单列不惧结束*/
+/*1-3-2布局开始*/
+.header{
+	background: purple;
+	height: 100px;
+}
+.nav{
+	float: left;
+	height: 400px;
+	width: 20%;
+	background: blue;
+}
+.con{
+	float: left;
+	width: 60%;
+	height: 400px;
+	background: silver;
+
+}
+.side{
+	float: right;
+	width: 20%;
+	height: 400px;
+	background: orange;
+}
+.footer{
+	clear: both;
+	height: 100px;
+	background: maroon;
+}

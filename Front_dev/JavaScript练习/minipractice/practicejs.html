@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js练习</title>
+	<style type="text/css">
+     .test1{
+     	
+     	
+     	background: red;
+     }
+     .test2{
+     	
+     	
+     	background: green;
+     }
+
+
+	</style>
+</head>
+<body>
+  <div class="test1" onclick="t();"  style="width:300px;height:300px;border-bottom: 1px solid black;" >我是一个会变大的div</div>
+ 
+</body>
+<script>
+   var a=document.getElementsByTagName('div')[0];
+   alert(a.className);
+   // return;
+
+   function t(){
+   var div=	document.getElementsByTagName('div')[0];
+	  if( div.className.indexOf('test1')>=0) {
+	  	  div.className="test2";
+	  }else{
+	  	div.className='test1';
+	  }
+	  div.style.width=parseInt(div.style.width)+10+'px';
+	  div.style.height=parseInt(div.style.height)+10+'px';
+	  div.style.borderBottomWidth=parseInt(div.style.borderBottomWidth)+10+'px';
+	  
+   }
+	
+</script>
+</html>

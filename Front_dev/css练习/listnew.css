@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 21:11:14
+ * @version $Id$
+ */
+ .news{
+    width: 300px;
+ 	height: 120px;
+ 	border: 1px purple solid;
+ 	//position: relative;
+ }
+ .news ul{
+ 	list-style-type: none;
+ 	//position: absolute;
+ 	margin: 0px;
+ 	padding: 0px;
+}
+.news li a{
+   color: #777;
+   text-decoration: none;
+}
+ 
+ .news ul li span{
+ 	float: right;
+ }

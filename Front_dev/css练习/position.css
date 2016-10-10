@@ -1,0 +1,49 @@
+/*p{
+  display: inline;
+}
+#hidden{
+  visibility: hidden;;
+}
+#none{
+  display: none;
+}*/
+/*body{
+  height: 900px;
+}
+.top_bar{
+  height: 50px;
+  width: 1366px;
+  position: fixed;
+
+  background:blue;
+}*/
+/*#xin{
+  position: fixed;
+  top: 30px;
+  left: 50px;
+  color: red;
+/*}*/
+
+/*.xin{
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: relative;
+  top: -8px;/*如果不设置，那么元素会与浏览器页面边缘有8个像素的距离*/
+  /*left: 50px;*/
+/*}*/
+.xin{
+  position: relative;/*如果子元素为绝对定位那么父元素就要设置为相对定位，要不然子元素会以整个body为父元素进行定位*/
+  height: 300px;
+  width: 300px;
+  background: green;
+  margin: 0px auto;
+  border: 2px yellow solid;
+}
+.star{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: red;
+  left: 50px;
+}

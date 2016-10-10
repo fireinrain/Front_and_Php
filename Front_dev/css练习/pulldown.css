@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 21:31:27
+ * @version $Id$
+ */
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu li{
+	float: left;
+	width: 150px;
+}
+#menu ul li dt{
+	padding: 5px;
+	text-align: center;
+	border-bottom: 3px #b00 solid;
+	background: #e08;
+}
+#menu li dd{
+	border-bottom: 3px #b00 solid;
+	height: 31px;
+	display: none;
+	line-height: 31px;
+	text-align: center;
+	color: #fff;
+	background: #47a;
+}
+#menu li:hover dd{
+	display: block;
+}
+#menu li dd a{
+	color: #fff;
+	text-decoration:none;
+}

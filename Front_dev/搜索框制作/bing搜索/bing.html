@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>bing搜索</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+    <!-- 导航开始 -->
+    	<ul id="search-list">
+    		<li><a href="">图片</a></li>
+    		<li><a href="">视频</a></li>
+    		<li><a href="">学术</a></li>
+    		<li><a href="">词典</a></li>
+    		<li><a href="">地图</a></li>
+    		<li><a href="">更多<span></span></a></li>
+    		<li><a href="">Office Online</a></li>
+    		<li><a href="">Outlook.com</a></li>
+    	</ul>
+    	<div id="search-right"></div>
+    </div>
+    <!-- 页面主体 -->
+    <div id="content">
+    <div id="search-box-position">
+    <!-- 搜索框 -->
+    <div id="logo"></div>
+        <form class="search-form" action="http://cn.bing.com/search" target="_blank" id="search-form">
+            <input id="search-input-text" type="text" name="q" class="search_input" autocomplete="off" />
+            <input id="search-input-button" type="submit" value=""/>
+        </form>
+    </div>	
+      <div class="suggest" id="search-suggest" style="display: none">
+    	<ul id="search-result">
+    		<li>搜索结果1</li>
+    		<li>搜索结果2</li>
+    		<li>搜索结果3</li>
+    	</ul>
+    </div>
+    </div>
+    <!-- 尾部 -->
+    <div id="footer"></div>
+  
+    <script src="jquery.js"></script>
+    <script>
+        
+    // $("#search-input-text").bind("keyup",function() {
+
+    // 	   var searchText=$("#search-input-text").val();
+    // 	$.get('http://api.bing.com/qsonhs.aspx?q='+searchText,function(d){
+    //        var d=d.AS.Results[0].Suggests;
+    //        var html="";
+    //     for (var i = 0; i < d.length; i++) {
+    //     	html+='<li>'+d[i].Txt+'</li>';
+    //     }
+    //     $('#search-result').html(html);
+    //             $("#search-suggest").show().css({
+	   //         top:$('#search-form').offset().top+45,
+	   //         left:$('#search-form').offset().left,
+	   //         position:'absolute'
+	   //  	});	
+  
+    // 	},'json');
+    	
+	   // })
+	   //由于无法将该仿页面弄到api.bing.com故无法测试。。。
+	   $("#search-input-text").bind("keyup",function() {
+
+                $("#search-suggest").show().css({
+	           top:$('#search-form').offset().top+45,
+	           left:$('#search-form').offset().left,
+	           position:'absolute'
+	    	});	
+		      });
+    </script>
+</body>
+</html>

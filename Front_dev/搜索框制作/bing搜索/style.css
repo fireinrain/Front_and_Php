@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-04-02 11:17:49
+ * @version $Id$
+ */
+ /*消除默认样式*/
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+#header{
+	height: 43px;
+	width: 1366px;
+	background: #333;
+}
+#search-list li{
+	float: left;
+	list-style-type: none;
+	margin-left: 36px;
+}
+#search-list li a{
+	line-height: 42px;
+	color: #acacac;
+	font-size: 13px;
+	display: block;
+	text-align: center;
+}
+#search-list li a:hover{
+	color: white;
+}
+#search-list li a span{
+	height: 0px;
+	width: 0px;
+	border:1px #acacac solid;
+	margin-left: 35px;
+}
+#search-right{
+	float: right;
+}
+#content{
+   height: 536px;
+   width: 1366px;
+   //position: relative;
+   background: url(bing_gb.JPG);
+}
+#search-box-position{
+	position: absolute;
+	top: 120px;
+	left: 110px;
+}
+#logo{
+	background-image: url(logo.png);
+	width: 107px;
+	height: 53px;
+	float: left;
+	margin: -4px 18px 0 0;
+}
+form{
+	float: left;
+	background-color: #fff;
+/*	padding: 5px;*/
+}
+#content #search-input-text{
+	/*height: 25px;*/
+	float: left;
+	line-height: 25px;
+	height: 45px;
+	width: 500px;
+	border: 0px;
+	font-size: 20px;
+	margin-left: 10px;
+	outline: none;
+
+	/*outline: none;*/
+	/*position: absolute;
+	top: 80px;
+	left: 234px;*/
+}
+#content #search-input-button{
+	border: 0px;
+	background-image: url(bing_button.png);
+	width: 45px;
+	height: 45px;
+	cursor:pointer;//变成手形
+}
+#footer{
+	height: 35px;
+	width: 1366px;
+	background: #333;}
+.suggest{
+	width: 553px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.suggest ul{
+	list-style: none;
+}
+.suggest ul li{
+	padding: 3px;
+	font-size: 16px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.suggest ul li:hover{
+	text-decoration: underline;
+	background-color: #e5e5e5;
+}
+

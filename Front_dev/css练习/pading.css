@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 23:11:28
+ * @version $Id$
+ */
+#nav{
+	list-style-type: none;
+	display: inline;
+}
+#nav li{
+	display: inline;
+	margin-right: 5px;
+	float: left;
+	
+	
+}
+#nav a{
+	color: #399;
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	font-family: arial;
+	border: 1px #999 solid;
+	width: 20px;
+	line-height: 20px;
+	text-align: center;
+
+}
+#nav li a:hover{
+   font-size: 24px;
+   line-height: 40px;
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   z-index: 10;
+   margin: -10px 0 0 -10px;
+   font-weight: bold;
+   color: #cc66ff;
+   border: 1px #666666 dotted;
+   background: #eee;
+}

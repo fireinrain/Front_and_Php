@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lan='ch'>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>css测试</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="./layout.css" rel="stylesheet">
+</head>
+<body>
+    <a href="http://www.baidu.com">百度一下，你就知道。</a>
+
+    <div class="list" name='list'>
+    	<ul class="list_list">
+    		<li>这是小妹</li>
+    		<li>这是小第</li>
+    		<li>这是小姐</li>
+    	</ul>
+    </div>
+    <!-- <iframe src="http://www.baidu.com">
+    	<iframe src="http://www.sina.com"></iframe>
+    </iframe> -->
+
+    <script type="text/javascript">
+    	function all() {
+    		// body...
+    		alert('你好');
+    	}
+    	// a=setTimeout(all,5000);
+    	// clearTimeout(a)
+    	// console.log(a);
+    	// a=setInterval(all,1000)
+    	// console.log(a);
+    	a=document.getElementsByName('list');
+    	console.log(a[0].innerHTML)
+    </script>
+</body>
+</html>

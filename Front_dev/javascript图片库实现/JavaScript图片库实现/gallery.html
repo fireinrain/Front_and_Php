@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>image gallery</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<!-- <script type="text/javascript" src="scripts/showPic.js"></script> -->
+<style type="text/css">
+	body{
+		font-family: "helvetica","arial",serif;
+		color: #333;
+		background-color: #ccc;
+		margin: 1em 10%;
+	}
+	h1{
+		color: #333;
+		background-color: transparent;
+	}
+	a{
+		color: #c60;
+		background-color: transparent;
+		font-weight: bold;
+		text-decoration: none;
+
+	}
+	ul{
+		width: 800px;
+		padding: 0;
+
+	}
+	li{
+		float: left;
+		padding: 1em;
+		list-style: none;
+	}
+	img{
+		display: block;
+		clear: both;
+	}
+
+</style>	
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul id="imagegallery">
+    	<li><a href="images/fireworks.jpg" title="A fireworks display" ><img src="images/thumbnail_fireworks.jpg" alt="Fireworks"></a></li>
+    	<li><a href="images/coffee.jpg" title="A cup of black coffee"><img src="images/thumbnail_coffee.jpg" alt="Coffee"></a></li>
+    	<li><a href="images/rose.jpg" title="A red,red rose"><img src="images/thumbnail_rose.jpg" alt="Rose"></a></li>
+    	<li><a href="images/bigben.jpg" title="The famous clock" ><img src="images/thumbnail_bigben.jpg" alt="Big Ben"></a></li>
+    </ul>
+    <!-- <img id="placeholder"src="images/placeholder.jpg" alt="my image gallery">
+    <p id="description">Choose an image</p> -->
+ <!--  	<script type="text/javascript">
+  		 function countBodyChildren(){
+			var body_element=document.getElementsByTagName("body")[0];
+			alert(body_element.childNodes.length);
+			alert(document.getElementById("description").id);
+			console.log(document.getElementById("description").id);
+   }
+           window.onload=countBodyChildren;
+
+   	function showPic(whichpic){
+    		var source=whichpic.getAttribute("href");
+    		var placeholder=document.getElementById("placeholder");
+    		placeholder.setAttribute("src",source);
+    		var text=whichpic.getAttribute("title");
+    		console.log(text);
+    		var description=document.getElementById("description");
+    		// console.log()
+    		description.firstChild.nodeValue = text;
+    	}
+
+  </script>	 -->
+  <script src="scripts/showPic.js"></script>
+</body>
+</html>

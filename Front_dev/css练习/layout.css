@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-28 22:10:00
+ * @version $Id$
+ */
+/*body{
+ 	background: gray;
+ 	padding: 0px;
+ 	margin: 0px;
+
+.xin{
+  height: 50px;
+  background: red;
+  margin: 40px;
+}*/
+/*.xin{
+	background: #feb;
+	padding: 10px;
+
+	border: 1px red dashed;
+}
+.star{
+	background: #adf;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px #049 solid;
+}
+.new{
+	background: #396;
+	margin: 0px;
+	padding: 0px;
+	border: 1px #785 solid;
+}*/
+/*浮动练习*/
+.xin1{
+	background: #933;
+	height: 100px;
+	width: 300px;
+}
+.xin2{
+	/*一个元素的浮动*/
+  float:right;
+	background: #0f0;
+	height: 60px;
+	width: 200px;
+
+}
+.xin3{
+	float: right;
+	background: #f00;
+	height: 140px;
+	width: 250px;
+	clear: right;
+}
+.xin4{
+  clear: right;
+	background: #ccc;
+	height: 200px;
+	width: 180px;
+}

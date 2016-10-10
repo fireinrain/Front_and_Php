@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-30 22:17:00
+ * @version $Id$
+ */
+#column a{
+	float: left;
+	width: 100px;
+	border-right: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	font: bold 14px/30px arial;
+	color:#000;
+	text-decoration: none;
+	text-align: center;
+	//display: block;
+}
+#contant{
+	width: 303px;
+	height: 90px;
+	overflow: hidden;
+}
+#contant ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 4px 0 0 5px;
+
+}
+#contant li{
+   font-size: 12px;
+   overflow: hidden;
+   padding-left: 2px;
+   line-height: 27px;
+}
+#contant li a{
+	text-decoration: none;
+	color: #777;
+}
+#nav{
+	width: 303px;
+	height: 120px;
+	border: 1px #ccc solid;
+
+}
