@@ -1,0 +1,75 @@
+*{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/*文章展示样式*/
+.article_container{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid #f00;
+	background-color: #f96;
+	color:#fff;
+}
+
+/*文章标题样式*/
+.article_container h2{
+	text-align: center;
+}
+
+/*阅读标签信息样式*/
+.article_edit_info{
+	/*position: absolute;*/
+	float: right;
+	margin-right: 30px;
+	/*bottom: 0px;*/
+}
+.article_edit_info li{
+	display: inline;
+}
+
+/*文章主体样式*/
+.article_body{
+	padding: 10 30 10 30;
+	clear: both;
+	font-size: 1.2em;
+}
+
+/*评论框样式*/
+.comments_leave{
+	background-color: #f63;
+}
+
+/*评论栏目样式*/
+#comment_form input,label{
+	display: block;
+
+}
+#comment_form label{
+	color: #9ff;
+	padding: 5px 5px 5px 0px;
+}
+#comment_form input,textarea{
+	width: 350px;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+#comment_form textarea{
+	height: 150px;
+	resize: none;
+}
+#comment_form #submit{
+	width: 120px;
+	margin-top: 10px;
+	border: none;
+	color: white;
+	background-color: #FE6519;
+
+}
+#comment_form #submit:hover{
+	
+	background-color: #630;
+
+}
