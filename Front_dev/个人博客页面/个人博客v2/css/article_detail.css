@@ -1,0 +1,215 @@
+*{
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*主题背景*/
+body{
+	background-image: url("../images/background1.jpg");
+}
+
+
+/*导航栏样式*/
+div.nav_container{
+	height: 180px;
+	background-color: #099;
+}
+
+div#nav{
+	width: 960px;
+	/*height: 180px*/
+	margin: 0 auto 0 auto;
+	/*border: 1px solid #f00;*/
+}
+
+ul.nav_ul{
+	float: left;
+
+	width: 750px;
+	margin:auto 0 auto 0;
+	margin-top: 60px;
+	border: 1px solid #fff;
+}
+
+/*下拉导航条*/
+/* 下拉按钮样式 */
+.dropbtn {
+    background-color: #099;
+    color: white;
+    padding: 16px;
+    font-size: 1.7em;
+    border: none;
+    cursor: pointer;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #099;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 1;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+ul.nav_ul li{
+	display: inline;
+	padding: 16px;
+	padding-left: 50px;
+
+}
+
+ul.nav_ul li a{
+	font-size: 1.7em;
+	color: #fff;
+	
+	
+}
+
+ul.nav_ul li a:hover{
+	background-color: rgba(255,203,178,0.5);
+}
+
+/*搜索框样式*/
+.search_box{
+	/*border:1px solid #f00;*/
+
+	/*display: inline;*/
+	margin-top: 75px;
+	float: right;
+	/*width: 400px;*/
+
+}
+form{
+	/*margin-left: 90px;*/
+}
+.search_box .search_value{
+	width: 150px;
+	height: 40px;
+	
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	border-radius: 20px 0 0 20px;
+}
+
+/*搜索按钮样式*/
+.search_btn {
+	height: 42px;
+	width: 40px;
+	
+	background-image: url("../images/search-icon.png");
+	background-repeat: no-repeat;
+	background-position: -2px -0px;
+	border:1px solid #ccc;
+	border-left: none;
+	border-radius:0 5px 5px 0; 
+	margin-left: -7px;
+	cursor: pointer;
+}
+
+
+/*文章展示样式*/
+.article_container{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 30px;
+	position: relative;
+	/*border: 1px solid #f00;*/
+	/*background-color: #9cc;*/
+	color:#000;
+}
+
+/*文章标题样式*/
+.article_container h2{
+	text-align: center;
+}
+
+/*阅读标签信息样式*/
+.article_edit_info{
+	/*position: absolute;*/
+	float: right;
+	margin-right: 30px;
+	/*bottom: 0px;*/
+}
+.article_edit_info li{
+	display: inline;
+}
+
+/*文章主体样式*/
+.article_body{
+	padding: 10 30 10 30;
+	clear: both;
+	font-size: 1.2em;
+}
+
+/*评论框样式*/
+.comments_leave{
+	background-color: #f63;
+}
+
+/*评论栏目样式*/
+#comment_form input,label{
+	display: block;
+
+}
+#comment_form label{
+	color: #9ff;
+	padding: 5px 5px 5px 0px;
+}
+#comment_form input,textarea{
+	width: 350px;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+#comment_form textarea{
+	height: 150px;
+	resize: none;
+}
+#comment_form #submit{
+	width: 120px;
+	margin-top: 10px;
+	border: none;
+	color: white;
+	background-color: #FE6519;
+
+}
+#comment_form #submit:hover{
+	
+	background-color: #630;
+
+}
+
+
+
+
+
